@@ -1,7 +1,6 @@
 // When in doubt, just include import React from 'react'
 //import React from 'react';
 import React, { useState } from 'react';
-import ttImage from './assets/tt.png'; 
 
 
 
@@ -104,7 +103,7 @@ const Stockform = () => {
 
   return (
     <div className="container">
-      <h1 className="header"><img src="/assets/tt.png" alt="Logo" />Finance Dashboard</h1>
+      <h1 className="header">Finance Dashboard</h1>
       <div className="form" style={{ display: 'flex', gap: '10px', alignItems: 'center', justifyContent: 'space-between'}}>
         <input 
           type="text" 
