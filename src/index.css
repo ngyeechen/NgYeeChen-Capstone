@@ -78,7 +78,14 @@ button:focus-visible {
 .header {
   text-align: center;
   margin-bottom: 30px;
-  color: #fb00ff;
+  color: #001f19;
+}
+
+/*add logo*/ 
+.header img {
+  height: 110px;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 .form {
